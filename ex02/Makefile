@@ -14,7 +14,7 @@
 CFILES = $(wildcard src/*.cpp)
 OFILES = $(CFILES:src/%.cpp=%.o)
 
-Compiler = c++
+Compiler = g++
 Flags = -Wall -Wextra -Werror -std=c++98
 INCLUDES = -Iincludes
 
